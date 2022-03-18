@@ -1,10 +1,10 @@
 const express = require('express');
-const https = require('https');
+const http = require('http');
 const bodyParser = require('body-parser');
 const translator = require('./utils/translate');
 
 const app = express();
-const server = https.createServer(app);
+const server = http.createServer(app);
 
 app.use(bodyParser.urlencoded({
     extended: false
