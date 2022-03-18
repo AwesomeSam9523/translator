@@ -1,0 +1,26 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeSam9523/translator.git"
+  },
+  "author": "AwesomeSam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AwesomeSam9523/translator/issues"
+  },
+  "homepage": "https://github.com/AwesomeSam9523/translator#readme",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
